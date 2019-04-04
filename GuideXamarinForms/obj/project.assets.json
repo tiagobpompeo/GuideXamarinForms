@@ -63,6 +63,18 @@
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.ConvertersPack/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        }
       }
     }
   },
@@ -450,13 +462,25 @@
         "xamarin.forms.3.6.0.220655.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.Forms.ConvertersPack/1.0.0": {
+      "sha512": "TvIju+AZFbOJqZv6PubCwzKKR+s2cuo/qRztiwnqwY9mdElZGWwu93xcjfMo7W2OJQitfFscrIO19wFq3qaBOA==",
+      "type": "package",
+      "path": "xamarin.forms.converterspack/1.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll",
+        "xamarin.forms.converterspack.1.0.0.nupkg.sha512",
+        "xamarin.forms.converterspack.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.0.1",
-      "Xamarin.Forms >= 3.6.0.220655"
+      "Xamarin.Forms >= 3.6.0.220655",
+      "Xamarin.Forms.ConvertersPack >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -511,6 +535,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.6.0.220655, )"
+          },
+          "Xamarin.Forms.ConvertersPack": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

@@ -23,6 +23,7 @@ namespace GuideXamarinForms.Views
             {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" },
+                new HomeMenuItem {Id = MenuItemType.Behaviors, Title="Behaviors" },
                 new HomeMenuItem {Id = MenuItemType.CustomControls, Title="CustomControls" },
                 new HomeMenuItem {Id = MenuItemType.CustomRenders, Title="CustomRenders" },
                 new HomeMenuItem {Id = MenuItemType.Effects, Title="Effects" },
@@ -33,9 +34,7 @@ namespace GuideXamarinForms.Views
                 new HomeMenuItem {Id = MenuItemType.DependencyService, Title="DependencyService" },
                 new HomeMenuItem {Id = MenuItemType.NavigationMethods, Title="NavigationMethods" },
                 new HomeMenuItem {Id = MenuItemType.TaskPage, Title="TaskPage" },
-                new HomeMenuItem {Id = MenuItemType.ServicesPage, Title="ServicesPage" }
-               
-
+                new HomeMenuItem {Id = MenuItemType.ServicesPage, Title="ServicesPage" }             
 
             };
 

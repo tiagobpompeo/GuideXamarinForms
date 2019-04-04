@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using GuideXamarinForms.ViewModels;
 using Xamarin.Forms;
 
 namespace GuideXamarinForms.Views
@@ -10,6 +10,8 @@ namespace GuideXamarinForms.Views
         public ConvertesPage()
         {
             InitializeComponent();
+
+            BindingContext = new ConvertersViewModel();
         }
     }
 }

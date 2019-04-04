@@ -13,6 +13,7 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.220655" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="Xamarin.Forms.ConvertersPack" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Behaviors\" />
@@ -20,5 +21,7 @@
     <Folder Include="CustomRenders\" />
     <Folder Include="Effects\" />
     <Folder Include="Converters\" />
+    <Folder Include="Triggers\" />
+    <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>

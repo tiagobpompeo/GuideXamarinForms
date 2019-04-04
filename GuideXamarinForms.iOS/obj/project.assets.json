@@ -146,6 +146,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.ConvertersPack/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        }
+      },
       "Xamarin.TestCloud.Agent/0.21.7": {
         "type": "package",
         "compile": {
@@ -160,7 +172,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Forms.ConvertersPack": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GuideXamarinForms.dll": {}
@@ -315,6 +328,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.ConvertersPack/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        }
+      },
       "Xamarin.TestCloud.Agent/0.21.7": {
         "type": "package",
         "compile": {
@@ -329,7 +354,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Forms.ConvertersPack": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GuideXamarinForms.dll": {}
@@ -484,6 +510,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.ConvertersPack/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        }
+      },
       "Xamarin.TestCloud.Agent/0.21.7": {
         "type": "package",
         "compile": {
@@ -498,7 +536,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Forms.ConvertersPack": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GuideXamarinForms.dll": {}
@@ -653,6 +692,18 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.ConvertersPack/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.280555"
+        },
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {}
+        }
+      },
       "Xamarin.TestCloud.Agent/0.21.7": {
         "type": "package",
         "compile": {
@@ -667,7 +718,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Forms.ConvertersPack": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GuideXamarinForms.dll": {}
@@ -923,6 +975,17 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.ConvertersPack/1.0.0": {
+      "sha512": "TvIju+AZFbOJqZv6PubCwzKKR+s2cuo/qRztiwnqwY9mdElZGWwu93xcjfMo7W2OJQitfFscrIO19wFq3qaBOA==",
+      "type": "package",
+      "path": "xamarin.forms.converterspack/1.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll",
+        "xamarin.forms.converterspack.1.0.0.nupkg.sha512",
+        "xamarin.forms.converterspack.nuspec"
+      ]
+    },
     "Xamarin.TestCloud.Agent/0.21.7": {
       "sha512": "+zk34I1237CfeM+AljHoLsSn/5C4gSNUtFkjQBTIHNru8Qvzqukk0WqHpYoqvuwn94D2RczQF2uGiNIuSBl4TA==",
       "type": "package",
@@ -947,6 +1010,7 @@
       "GuideXamarinForms >= 1.0.0",
       "Xamarin.Essentials >= 1.0.1",
       "Xamarin.Forms >= 3.6.0.220655",
+      "Xamarin.Forms.ConvertersPack >= 1.0.0",
       "Xamarin.TestCloud.Agent >= 0.21.7"
     ]
   },
@@ -992,6 +1056,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.6.0.220655, )"
+          },
+          "Xamarin.Forms.ConvertersPack": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Xamarin.TestCloud.Agent": {
             "target": "Package",

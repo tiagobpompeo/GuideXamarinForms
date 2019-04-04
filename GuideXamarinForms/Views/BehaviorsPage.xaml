@@ -1,5 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GuideXamarinForms.Views.BehaviorsPage">
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:behaviors="clr-namespace:GuideXamarinForms.Behaviors;assembly=GuideXamarinForms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GuideXamarinForms.Views.BehaviorsPage">
     <ContentPage.Content>
+        <StackLayout>
+             <Entry x:Name="txtCep" HeightRequest="40" TextColor="Black" FontSize="16" Keyboard="Numeric">
+                <Entry.Behaviors>
+                    <behaviors:EntryCepFormatterBehavior />
+                </Entry.Behaviors>
+            </Entry>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

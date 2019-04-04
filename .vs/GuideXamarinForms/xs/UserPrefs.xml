@@ -1,27 +1,25 @@
 ﻿<Properties StartupConfiguration="{B09F3C40-E05E-4E65-8B7B-FC70261CC289}|Default">
   <MonoDevelop.Ide.ItemProperties.GuideXamarinForms.Android PreferredExecutionTarget="Android.marshmallow6_0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms/ViewModels/ItemsViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms/Views/EffectsPage.xaml">
     <Files>
-      <File FileName="GuideXamarinForms/Views/CustomControlsPage.xaml" />
-      <File FileName="GuideXamarinForms/Behaviors/EntryCepFormatterBehavior.cs" Line="11" Column="10" />
-      <File FileName="GuideXamarinForms/Views/ItemsPage.xaml.cs" Line="28" Column="54" />
-      <File FileName="GuideXamarinForms/Models/HomeMenuItem.cs" Line="16" Column="9" />
-      <File FileName="GuideXamarinForms/ViewModels/ItemsViewModel.cs" Line="24" Column="53" />
-      <File FileName="GuideXamarinForms/Views/MainPage.xaml.cs" Line="39" Column="44" />
+      <File FileName="GuideXamarinForms/Views/EffectsPage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GuideXamarinForms" expanded="True">
             <Node name="GuideXamarinForms" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="ItemsViewModel.cs" selected="True" />
-              </Node>
+              <Node name="Interfaces" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="DependencyServicePage.xaml" expanded="True" />
+                <Node name="EffectsPage.xaml" selected="True" />
               </Node>
+            </Node>
+            <Node name="GuideXamarinForms.Android" expanded="True">
+              <Node name="DependencyServices" expanded="True" />
+            </Node>
+            <Node name="GuideXamarinForms.iOS" expanded="True">
+              <Node name="DependencyServices" expanded="True" />
             </Node>
           </Node>
         </State>

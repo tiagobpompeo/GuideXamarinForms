@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:behaviors="clr-namespace:GuideXamarinForms.Behaviors;assembly=GuideXamarinForms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:customControls="clr-namespace:GuideXamarinForms.CustomControls;assembly=GuideXamarinForms" 
+             Title="Custom Controls" 
              x:Class="GuideXamarinForms.Views.CustomControlsPage">
     <ContentPage.Content>
         <StackLayout>
-             <Entry x:Name="txtCep" HeightRequest="40" TextColor="Black" FontSize="16" Keyboard="Numeric">
-                <Entry.Behaviors>
-                    <behaviors:EntryCepFormatterBehavior />
-                </Entry.Behaviors>
-            </Entry>
+            <Label Text="Custom Controls"/>
+           <customControls:ImageCustomRender BackgroundColor="Red" Tipo="ImageMyType" HeightRequest="50" WidthRequest="50" Source="xamarin_logo.png" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,5 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GuideXamarinForms.Views.TriggersPage">
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:GuideXamarinForms.Triggers" 
+             x:Class="GuideXamarinForms.Views.TriggersPage">
     <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Vamos brincar com as triggers!" />
+            <Label Text="Property Trigger:" />
+            <Entry Placeholder="Digite seu nome" BackgroundColor="White">
+                <Entry.Triggers>
+                    <Trigger TargetType="Entry" Property="Text" Value="Pompeo">
+                        <Setter Property="BackgroundColor" Value="Green" />
+                    </Trigger>
+                </Entry.Triggers>
+            </Entry>
+            <Button Text="Mudar minha cor" BackgroundColor="Green" TextColor="White">
+                <Button.Triggers>
+                    <EventTrigger Event="Clicked">
+                        <local:BackGroundColorButtonTriggerAction />
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

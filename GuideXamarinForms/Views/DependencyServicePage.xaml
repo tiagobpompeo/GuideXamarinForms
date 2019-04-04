@@ -1,5 +1,16 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GuideXamarinForms.Views.DependencyServicePage">
     <ContentPage.Content>
+        <StackLayout Padding="0,20,0,10" 
+                     HorizontalOptions="Center">
+                        <Button Grid.Row="6" Grid.Column="0" Text="Play Audio" 
+                                HorizontalOptions="Center"
+                                Clicked="PlayMyAudio" 
+                                BackgroundColor="Teal" HeightRequest="40" WidthRequest="130">
+                            <Button.TextColor>
+                                <OnPlatform x:TypeArguments="Color" iOS="Black" Android="Black"/>
+                            </Button.TextColor>
+                        </Button>
+                    </StackLayout>
     </ContentPage.Content>
 </ContentPage>

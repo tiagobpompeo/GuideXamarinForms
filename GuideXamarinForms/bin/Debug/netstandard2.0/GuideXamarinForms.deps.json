@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "28341b8d74c5f11b5819d6bfa9fa0504f5e38b08"
+    "signature": "05d136d20c160dae2ef707538c6c6eaef854ec2b"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,8 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.0.1",
-          "Xamarin.Forms": "3.6.0.220655"
+          "Xamarin.Forms": "3.6.0.220655",
+          "Xamarin.Forms.ConvertersPack": "1.0.0"
         },
         "runtime": {
           "GuideXamarinForms.dll": {}
@@ -57,6 +58,17 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Xamarin.Forms.ConvertersPack/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.ConvertersPack.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -100,6 +112,13 @@
       "sha512": "sha512-ltCTV5Tez9zTbg9f6UunegHPWRzfVHKGHeLOmXeJvNFEPwXrHDwjCcRqMqNISLRjzWxT1MuC9wgKdMoxGdBLqQ==",
       "path": "xamarin.forms/3.6.0.220655",
       "hashPath": "xamarin.forms.3.6.0.220655.nupkg.sha512"
+    },
+    "Xamarin.Forms.ConvertersPack/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TvIju+AZFbOJqZv6PubCwzKKR+s2cuo/qRztiwnqwY9mdElZGWwu93xcjfMo7W2OJQitfFscrIO19wFq3qaBOA==",
+      "path": "xamarin.forms.converterspack/1.0.0",
+      "hashPath": "xamarin.forms.converterspack.1.0.0.nupkg.sha512"
     }
   }
 }
