@@ -1,25 +1,20 @@
 ﻿<Properties StartupConfiguration="{B09F3C40-E05E-4E65-8B7B-FC70261CC289}|Default">
   <MonoDevelop.Ide.ItemProperties.GuideXamarinForms.Android PreferredExecutionTarget="Android.marshmallow6_0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms/Views/EffectsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms/Views/ConvertesPage.xaml">
     <Files>
-      <File FileName="GuideXamarinForms/Views/EffectsPage.xaml" />
+      <File FileName="GuideXamarinForms/Views/ConvertesPage.xaml" />
+      <File FileName="GuideXamarinForms/Converters/NullToVisibilityConverter.cs" Line="7" Column="54" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GuideXamarinForms" expanded="True">
             <Node name="GuideXamarinForms" expanded="True">
-              <Node name="Interfaces" expanded="True" />
+              <Node name="Converters" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="DependencyServicePage.xaml" expanded="True" />
-                <Node name="EffectsPage.xaml" selected="True" />
+                <Node name="ConvertesPage.xaml" selected="True" />
               </Node>
-            </Node>
-            <Node name="GuideXamarinForms.Android" expanded="True">
-              <Node name="DependencyServices" expanded="True" />
-            </Node>
-            <Node name="GuideXamarinForms.iOS" expanded="True">
-              <Node name="DependencyServices" expanded="True" />
             </Node>
           </Node>
         </State>

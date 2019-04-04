@@ -31,16 +31,25 @@ namespace GuideXamarinForms.ViewModels
         #endregion
 
         private string _name;
+        private string _name1;
+
         public string Name
         {
             get => _name;
             set => SetProperty(ref _name, value);
         }
 
+        public string Name1
+        {
+            get => _name1;
+            set => SetProperty(ref _name1, value);
+        }
+
 
         public ConvertersViewModel()
         {
             Name = "tiago";
+            Name1 = "pompeo";
         }
 
     }

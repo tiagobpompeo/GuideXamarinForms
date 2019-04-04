@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:converterPack="clr-namespace:Xamarin.Forms.ConvertersPack;assembly=Xamarin.Forms.ConvertersPack"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GuideXamarinForms.Views.ConvertesPage">
+             xmlns:converters="clr-namespace:GuideXamarinForms.Converters" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="GuideXamarinForms.Views.ConvertesPage">
     <ContentPage.Resources>
         <ResourceDictionary>
-         <converterPack:CurrencyConverter x:Key="CurrencyConverter" />
-         <converterPack:UpperTextConverter x:Key="UpperTextConverter" />
-        <converterPack:LowerTextConverter x:Key="LowerTextConverter" />
+            <converterPack:CurrencyConverter x:Key="CurrencyConverter" />
+            <converterPack:UpperTextConverter x:Key="UpperTextConverter" />
+            <converterPack:LowerTextConverter x:Key="LowerTextConverter" />
+            <converters:NullToVisibilityConverter x:Key="nullToVisibilityConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="{Binding Name, Converter={StaticResource UpperTextConverter}}">
             </Label>
+            
+            <Entry Text="{Binding Name1}"/>
+        
+            <Button Text="Enter"
+                IsVisible="{Binding Name1, 
+                Converter={StaticResource nullToVisibilityConverter}}"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
