@@ -24,6 +24,7 @@ namespace GuideXamarinForms.iOS
         {
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
+            global::ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

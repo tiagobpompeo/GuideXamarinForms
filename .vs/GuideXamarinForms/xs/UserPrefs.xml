@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{B09F3C40-E05E-4E65-8B7B-FC70261CC289}|Default">
-  <MonoDevelop.Ide.ItemProperties.GuideXamarinForms.Android PreferredExecutionTarget="Android.marshmallow6_0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms/Views/ConvertesPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.GuideXamarinForms.Android PreferredExecutionTarget="Android.LGM250HAFIT8VSBA6H" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms/Views/MainPage.xaml">
     <Files>
-      <File FileName="GuideXamarinForms/Views/ConvertesPage.xaml" />
-      <File FileName="GuideXamarinForms/Converters/NullToVisibilityConverter.cs" Line="7" Column="54" />
+      <File FileName="GuideXamarinForms/App.xaml.cs" Line="17" Column="31" />
+      <File FileName="GuideXamarinForms/Views/MainPage.xaml" />
+      <File FileName="GuideXamarinForms/Views/MainPage.xaml.cs" Line="76" Column="77" />
+      <File FileName="GuideXamarinForms/Views/MenuPage.xaml" />
+      <File FileName="GuideXamarinForms/Views/MenuPage.xaml.cs" Line="38" Column="74" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GuideXamarinForms" expanded="True">
             <Node name="GuideXamarinForms" expanded="True">
-              <Node name="Converters" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="ConvertesPage.xaml" selected="True" />
+                <Node name="MainPage.xaml" expanded="True" selected="True" />
+                <Node name="MenuPage.xaml" expanded="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>

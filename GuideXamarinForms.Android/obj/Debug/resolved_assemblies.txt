@@ -1,4 +1,5 @@
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/GuideXamarinForms.Android.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/FastAndroidCamera.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/FormsViewGroup.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/GuideXamarinForms.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/Java.Interop.dll
@@ -36,6 +37,11 @@
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/ZXing.Net.Mobile.Core.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/ZXing.Net.Mobile.Forms.Android.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/ZXing.Net.Mobile.Forms.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/zxing.portable.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/ZXingNetMobile.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/netstandard.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Data.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Transactions.dll
@@ -47,3 +53,14 @@
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Web.Services.dll
 /Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/Mono.Security.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Runtime.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Collections.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Runtime.Extensions.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.ObjectModel.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Threading.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.IO.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/Debug/android/assets/System.Globalization.dll

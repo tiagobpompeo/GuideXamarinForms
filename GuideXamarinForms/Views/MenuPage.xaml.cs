@@ -34,7 +34,8 @@ namespace GuideXamarinForms.Views
                 new HomeMenuItem {Id = MenuItemType.DependencyService, Title="DependencyService" },
                 new HomeMenuItem {Id = MenuItemType.NavigationMethods, Title="NavigationMethods" },
                 new HomeMenuItem {Id = MenuItemType.TaskPage, Title="TaskPage" },
-                new HomeMenuItem {Id = MenuItemType.ServicesPage, Title="ServicesPage" }             
+                new HomeMenuItem {Id = MenuItemType.ServicesPage, Title="ServicesPage" },
+                new HomeMenuItem {Id = MenuItemType.ScannerServices, Title="ScannerService" }
 
             };
 

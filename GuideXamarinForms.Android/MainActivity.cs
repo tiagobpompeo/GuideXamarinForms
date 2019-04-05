@@ -1,5 +1,5 @@
 ﻿using System;
-
+using ZXing.Mobile;
 using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
@@ -18,7 +18,7 @@ namespace GuideXamarinForms.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
+            MobileBarcodeScanner.Initialize(this.Application);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

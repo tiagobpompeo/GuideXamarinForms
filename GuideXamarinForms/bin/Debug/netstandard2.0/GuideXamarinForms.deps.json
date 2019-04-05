@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "05d136d20c160dae2ef707538c6c6eaef854ec2b"
+    "signature": "62a11fae417e823e574503e92e2e5ee9af9c0aae"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,7 +12,9 @@
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.220655",
-          "Xamarin.Forms.ConvertersPack": "1.0.0"
+          "Xamarin.Forms.ConvertersPack": "1.0.0",
+          "ZXing.Net.Mobile": "2.4.1",
+          "ZXing.Net.Mobile.Forms": "2.4.1"
         },
         "runtime": {
           "GuideXamarinForms.dll": {}
@@ -69,6 +71,34 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ZXing.Net.Mobile/2.4.1": {
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Core.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.0"
+          },
+          "lib/netstandard1.0/ZXingNetMobile.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.0"
+          },
+          "lib/netstandard1.0/zxing.portable.dll": {
+            "assemblyVersion": "0.16.2.0",
+            "fileVersion": "0.16.2.0"
+          }
+        }
+      },
+      "ZXing.Net.Mobile.Forms/2.4.1": {
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655",
+          "ZXing.Net.Mobile": "2.4.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/ZXing.Net.Mobile.Forms.dll": {
+            "assemblyVersion": "2.4.1.0",
+            "fileVersion": "2.4.1.0"
+          }
+        }
       }
     }
   },
@@ -119,6 +149,20 @@
       "sha512": "sha512-TvIju+AZFbOJqZv6PubCwzKKR+s2cuo/qRztiwnqwY9mdElZGWwu93xcjfMo7W2OJQitfFscrIO19wFq3qaBOA==",
       "path": "xamarin.forms.converterspack/1.0.0",
       "hashPath": "xamarin.forms.converterspack.1.0.0.nupkg.sha512"
+    },
+    "ZXing.Net.Mobile/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UJVTeViJx6D5vqhMNzvWw6Jacsm6/mgAGQOMLYIG+DyYHLmY/+OPT5uiGY3CjdcmjnIoiPTXsTgM9YUsgsutVw==",
+      "path": "zxing.net.mobile/2.4.1",
+      "hashPath": "zxing.net.mobile.2.4.1.nupkg.sha512"
+    },
+    "ZXing.Net.Mobile.Forms/2.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LD9SHG/6k+QzVD3gEujl5SF+Bz72VYbMjRos6pf1B3kG/TV5WJ9ygPuazibTTWg0OaKoftPhbmfQYSEfCIXWMA==",
+      "path": "zxing.net.mobile.forms/2.4.1",
+      "hashPath": "zxing.net.mobile.forms.2.4.1.nupkg.sha512"
     }
   }
 }

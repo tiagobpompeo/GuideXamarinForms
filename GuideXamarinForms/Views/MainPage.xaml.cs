@@ -72,6 +72,9 @@ namespace GuideXamarinForms.Views
                     case (int)MenuItemType.Triggers:
                         MenuPages.Add(id, new NavigationPage(new TriggersPage()));
                         break;
+                    case (int)MenuItemType.ScannerServices:
+                        MenuPages.Add(id, new NavigationPage(new ScannerPage()));
+                        break;
                 }
             }
 

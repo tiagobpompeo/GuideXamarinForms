@@ -19,7 +19,8 @@ namespace GuideXamarinForms.Models
         DependencyService,
         NavigationMethods,
         TaskPage,
-        ServicesPage
+        ServicesPage,
+        ScannerServices
 
     }
     public class HomeMenuItem

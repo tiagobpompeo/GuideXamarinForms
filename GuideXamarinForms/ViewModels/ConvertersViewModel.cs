@@ -48,8 +48,8 @@ namespace GuideXamarinForms.ViewModels
 
         public ConvertersViewModel()
         {
-            Name = "tiago";
-            Name1 = "pompeo";
+            Name = "tiago";//uppercase
+            Name1 = "pompeo";//se null nao habilita botao
         }
 
     }
