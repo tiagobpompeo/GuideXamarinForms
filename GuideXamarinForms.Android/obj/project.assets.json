@@ -458,10 +458,11 @@
   },
   "libraries": {
     "FastAndroidCamera/2.0.0": {
-      "sha512": "RQix6VHmVyQXVdP3Y4+Khw1F7HirONNCa5ubGng58gUkmSAhlS4t1Qf1Biyfakx/LjCYJ3SZ99rWSjQgV15uVQ==",
+      "sha512": "q0dnkcoM/6bsDxfQux8+gG4uc2kfb42t4XDvqktRQSucgYgMLVpOiA4uR8dKGLtcbuC8gDxw9XlXOMTiH/29oA==",
       "type": "package",
       "path": "fastandroidcamera/2.0.0",
       "files": [
+        ".signature.p7s",
         "fastandroidcamera.2.0.0.nupkg.sha512",
         "fastandroidcamera.nuspec",
         "lib/MonoAndroid403/FastAndroidCamera.dll",
@@ -1214,32 +1215,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/uniomteam/.nuget/packages/": {}
+    "/Users/tiagobernaiaspompeo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/GuideXamarinForms.Android.csproj",
+      "projectUniqueName": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.Android/GuideXamarinForms.Android.csproj",
       "projectName": "GuideXamarinForms.Android",
-      "projectPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/GuideXamarinForms.Android.csproj",
-      "packagesPath": "/Users/uniomteam/.nuget/packages/",
-      "outputPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.Android/obj/",
+      "projectPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.Android/GuideXamarinForms.Android.csproj",
+      "packagesPath": "/Users/tiagobernaiaspompeo/.nuget/packages/",
+      "outputPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/uniomteam/.config/NuGet/NuGet.Config"
+        "/Users/tiagobernaiaspompeo/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
+        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj": {
-              "projectPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj"
+            "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj": {
+              "projectPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj"
             }
           }
         }

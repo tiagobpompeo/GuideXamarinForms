@@ -1107,7 +1107,7 @@
       ]
     },
     "Xamarin.TestCloud.Agent/0.21.7": {
-      "sha512": "+zk34I1237CfeM+AljHoLsSn/5C4gSNUtFkjQBTIHNru8Qvzqukk0WqHpYoqvuwn94D2RczQF2uGiNIuSBl4TA==",
+      "sha512": "mubMu3vnMkY62KQ3u6dKLFBGHlf2iKt1qU+N7ptAqi+rKpC+Zcy4W1sH0HQdP6YtXuhAkQt1u8LHJMGOd2qkYA==",
       "type": "package",
       "path": "xamarin.testcloud.agent/0.21.7",
       "files": [
@@ -1179,32 +1179,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/uniomteam/.nuget/packages/": {}
+    "/Users/tiagobernaiaspompeo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.iOS/GuideXamarinForms.iOS.csproj",
+      "projectUniqueName": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.iOS/GuideXamarinForms.iOS.csproj",
       "projectName": "GuideXamarinForms.iOS",
-      "projectPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.iOS/GuideXamarinForms.iOS.csproj",
-      "packagesPath": "/Users/uniomteam/.nuget/packages/",
-      "outputPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.iOS/obj/",
+      "projectPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.iOS/GuideXamarinForms.iOS.csproj",
+      "packagesPath": "/Users/tiagobernaiaspompeo/.nuget/packages/",
+      "outputPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/uniomteam/.config/NuGet/NuGet.Config"
+        "/Users/tiagobernaiaspompeo/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj": {
-              "projectPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj"
+            "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj": {
+              "projectPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj"
             }
           }
         }

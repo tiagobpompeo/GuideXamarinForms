@@ -121,25 +121,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/uniomteam/.nuget/packages/": {}
+    "/Users/tiagobernaiaspompeo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.UITests/GuideXamarinForms.UITests.csproj",
+      "projectUniqueName": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.UITests/GuideXamarinForms.UITests.csproj",
       "projectName": "GuideXamarinForms.UITests",
-      "projectPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.UITests/GuideXamarinForms.UITests.csproj",
-      "packagesPath": "/Users/uniomteam/.nuget/packages/",
-      "outputPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms.UITests/obj/",
+      "projectPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.UITests/GuideXamarinForms.UITests.csproj",
+      "packagesPath": "/Users/tiagobernaiaspompeo/.nuget/packages/",
+      "outputPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms.UITests/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/uniomteam/.config/NuGet/NuGet.Config"
+        "/Users/tiagobernaiaspompeo/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net461"
       ],
       "sources": {
+        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

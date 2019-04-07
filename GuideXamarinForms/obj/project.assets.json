@@ -554,28 +554,29 @@
     ]
   },
   "packageFolders": {
-    "/Users/uniomteam/.nuget/packages/": {},
+    "/Users/tiagobernaiaspompeo/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj",
+      "projectUniqueName": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj",
       "projectName": "GuideXamarinForms",
-      "projectPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj",
-      "packagesPath": "/Users/uniomteam/.nuget/packages/",
-      "outputPath": "/Users/uniomteam/Documents/PROJETOS/GuideXamarinForms/GuideXamarinForms/obj/",
+      "projectPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/GuideXamarinForms.csproj",
+      "packagesPath": "/Users/tiagobernaiaspompeo/.nuget/packages/",
+      "outputPath": "/Users/tiagobernaiaspompeo/Documents/PROJECTS/GuideXamarinForms/GuideXamarinForms/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/uniomteam/.config/NuGet/NuGet.Config"
+        "/Users/tiagobernaiaspompeo/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
