@@ -9,7 +9,7 @@
             <Label Text="Property Trigger:" />
             <Entry Placeholder="Digite seu nome" BackgroundColor="White">
                 <Entry.Triggers>
-                    <Trigger TargetType="Entry" Property="Text" Value="Pompeo">
+                    <Trigger TargetType="Entry" Property="Text" Value="pompeo">
                         <Setter Property="BackgroundColor" Value="Green" />
                     </Trigger>
                 </Entry.Triggers>

@@ -13,10 +13,13 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Spacing="5">
+            
+            <Label HorizontalTextAlignment="Start" Text="Converter to Upper Text : "/>
             <Label Text="{Binding Name, Converter={StaticResource UpperTextConverter}}">
             </Label>
             
+            <Label HorizontalTextAlignment="Start" Text="Botao Visivel somente se nao estiver null : "/>
             <Entry Text="{Binding Name1}"/>
         
             <Button Text="Enter"

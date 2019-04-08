@@ -5,9 +5,22 @@
              Title="Custom Controls" 
              x:Class="GuideXamarinForms.Views.CustomControlsPage">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Spacing="5">
             <Label Text="Custom Controls"/>
-           <customControls:ImageCustomRender BackgroundColor="Red" Tipo="ImageMyType" HeightRequest="50" WidthRequest="50" Source="xamarin_logo.png" />
-        </StackLayout>
+            
+            <Label HorizontalTextAlignment="Start" Text="Image Com Propriedade Anexada : "/>
+            <customControls:ImageCustomRender BackgroundColor="Red" Tipo="ImageMyType" HeightRequest="50" WidthRequest="50" Source="xamarin_logo.png" />
+       
+             <Label HorizontalTextAlignment="Start" Text="Check Box : "/>
+             <customControls:CheckBoxs x:Name="checkBox" 
+                                 HeightRequest="30" 
+                                 WidthRequest="30" 
+                                 HorizontalOptions="CenterAndExpand" 
+                                 VerticalOptions="Center"
+                                 Grid.Row="0" 
+                                 Grid.Column="0" 
+                                 Grid.RowSpan="2">
+            </customControls:CheckBoxs>
+         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

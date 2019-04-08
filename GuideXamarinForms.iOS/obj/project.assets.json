@@ -2,6 +2,21 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "LiveXAML/2.1.70": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
+        }
+      },
+      "SaturdayMP.XPlugins.iOS.BEMCheckBox/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -199,6 +214,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LiveXAML": "2.1.70",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.220655",
           "Xamarin.Forms.ConvertersPack": "1.0.0",
@@ -214,6 +230,21 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "LiveXAML/2.1.70": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
+        }
+      },
+      "SaturdayMP.XPlugins.iOS.BEMCheckBox/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -411,6 +442,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LiveXAML": "2.1.70",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.220655",
           "Xamarin.Forms.ConvertersPack": "1.0.0",
@@ -426,6 +458,21 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "LiveXAML/2.1.70": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
+        }
+      },
+      "SaturdayMP.XPlugins.iOS.BEMCheckBox/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -623,6 +670,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LiveXAML": "2.1.70",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.220655",
           "Xamarin.Forms.ConvertersPack": "1.0.0",
@@ -638,6 +686,21 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "LiveXAML/2.1.70": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
+        }
+      },
+      "SaturdayMP.XPlugins.iOS.BEMCheckBox/1.4.3": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -835,6 +898,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LiveXAML": "2.1.70",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.220655",
           "Xamarin.Forms.ConvertersPack": "1.0.0",
@@ -851,6 +915,37 @@
     }
   },
   "libraries": {
+    "LiveXAML/2.1.70": {
+      "sha512": "skUl69q01DSsK+8xZP6eotLuOSFZmHVut36HJ+iA/Fo1RkaGc8thaNlGFiky7wRhiGfG0u1z7UqdxYKxGF/mtQ==",
+      "type": "package",
+      "path": "livexaml/2.1.70",
+      "files": [
+        ".signature.p7s",
+        "build/netstandard2.0/LiveXAML.targets",
+        "build/netstandard2.0/XamarinLive.Build.dll",
+        "build/netstandard2.0/XamarinLive.Common.dll",
+        "build/netstandard2.0/minified.cs",
+        "build/netstandard2.0/minified.tpl.cs",
+        "build/portable-win+net45+wp80+win81+wpa81/LiveXAML.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Build.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Common.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/minified.cs",
+        "build/portable-win+net45+wp80+win81+wpa81/minified.tpl.cs",
+        "livexaml.2.1.70.nupkg.sha512",
+        "livexaml.nuspec"
+      ]
+    },
+    "SaturdayMP.XPlugins.iOS.BEMCheckBox/1.4.3": {
+      "sha512": "QNa66YzZ+JLo271SwvF59xvlBZxn6NbJBG/r0eRm1CXAR/6VPl8SY7WtcGNPWidql73IUzHfD1wN5ALlaroElg==",
+      "type": "package",
+      "path": "saturdaymp.xplugins.ios.bemcheckbox/1.4.3",
+      "files": [
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SaturdayMP.XPlugins.iOS.BEMCheckBox.dll",
+        "saturdaymp.xplugins.ios.bemcheckbox.1.4.3.nupkg.sha512",
+        "saturdaymp.xplugins.ios.bemcheckbox.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "MNcaYxUJvUcoXOa+jgKl/GDw/Mh+wMrxDjW4dre7qrp35LUGTjUBNtZsNjxsWX592ocdyqt1X5hMJB+5OStoYw==",
       "type": "package",
@@ -1170,6 +1265,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "GuideXamarinForms >= 1.0.0",
+      "LiveXAML >= 2.1.70",
+      "SaturdayMP.XPlugins.iOS.BEMCheckBox >= 1.4.3",
       "Xamarin.Essentials >= 1.0.1",
       "Xamarin.Forms >= 3.6.0.220655",
       "Xamarin.Forms.ConvertersPack >= 1.0.0",
@@ -1214,6 +1311,14 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "LiveXAML": {
+            "target": "Package",
+            "version": "[2.1.70, )"
+          },
+          "SaturdayMP.XPlugins.iOS.BEMCheckBox": {
+            "target": "Package",
+            "version": "[1.4.3, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.0.1, )"

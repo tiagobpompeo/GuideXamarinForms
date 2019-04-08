@@ -17,8 +17,12 @@ namespace GuideXamarinForms.Views {
     public partial class CustomControlsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::GuideXamarinForms.CustomControls.CheckBoxs checkBox;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CustomControlsPage));
+            checkBox = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::GuideXamarinForms.CustomControls.CheckBoxs>(this, "checkBox");
         }
     }
 }

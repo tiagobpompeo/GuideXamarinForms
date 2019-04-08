@@ -5,6 +5,7 @@
              x:Class="GuideXamarinForms.Views.CustomRendersPage">
     <ContentPage.Content>
         <StackLayout>
+              <Label HorizontalTextAlignment="Start" Text="Frame Customizado para iOS : "/>
             <customRenders:FrameCustom BackgroundColor="Red" HasShadow="{OnPlatform Android=true, iOS=false}">
                 <Image HeightRequest="50" WidthRequest="50" Source="xamarin_logo.png" />
             </customRenders:FrameCustom>

@@ -11,6 +11,12 @@
           "lib/MonoAndroid403/FastAndroidCamera.dll": {}
         }
       },
+      "LiveXAML/2.1.70": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/LiveXAML.targets": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -441,6 +447,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "LiveXAML": "2.1.70",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.220655",
           "Xamarin.Forms.ConvertersPack": "1.0.0",
@@ -470,6 +477,26 @@
         "src/CameraExtensions.cs",
         "src/FastJavaByteArray.cs",
         "src/FastJavaByteArrayEnumerator.cs"
+      ]
+    },
+    "LiveXAML/2.1.70": {
+      "sha512": "skUl69q01DSsK+8xZP6eotLuOSFZmHVut36HJ+iA/Fo1RkaGc8thaNlGFiky7wRhiGfG0u1z7UqdxYKxGF/mtQ==",
+      "type": "package",
+      "path": "livexaml/2.1.70",
+      "files": [
+        ".signature.p7s",
+        "build/netstandard2.0/LiveXAML.targets",
+        "build/netstandard2.0/XamarinLive.Build.dll",
+        "build/netstandard2.0/XamarinLive.Common.dll",
+        "build/netstandard2.0/minified.cs",
+        "build/netstandard2.0/minified.tpl.cs",
+        "build/portable-win+net45+wp80+win81+wpa81/LiveXAML.targets",
+        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Build.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/XamarinLive.Common.dll",
+        "build/portable-win+net45+wp80+win81+wpa81/minified.cs",
+        "build/portable-win+net45+wp80+win81+wpa81/minified.tpl.cs",
+        "livexaml.2.1.70.nupkg.sha512",
+        "livexaml.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1200,6 +1227,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
       "GuideXamarinForms >= 1.0.0",
+      "LiveXAML >= 2.1.70",
       "Xamarin.Android.Support.Core.Utils >= 28.0.0.1",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.1",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
@@ -1250,6 +1278,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "LiveXAML": {
+            "target": "Package",
+            "version": "[2.1.70, )"
+          },
           "Xamarin.Android.Support.Core.Utils": {
             "target": "Package",
             "version": "[28.0.0.1, )"

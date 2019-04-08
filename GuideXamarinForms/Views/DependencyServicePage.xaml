@@ -3,6 +3,8 @@
     <ContentPage.Content>
         <StackLayout Padding="0,20,0,10" 
                      HorizontalOptions="Center">
+            
+              <Label HorizontalTextAlignment="Start" Text="Dependencia de Servico Audio : "/>
                         <Button Grid.Row="6" Grid.Column="0" Text="Play Audio" 
                                 HorizontalOptions="Center"
                                 Clicked="PlayMyAudio" 

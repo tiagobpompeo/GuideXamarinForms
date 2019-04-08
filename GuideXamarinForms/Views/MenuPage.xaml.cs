@@ -19,6 +19,7 @@ namespace GuideXamarinForms.Views
         {
             InitializeComponent();
 
+
             menuItems = new List<HomeMenuItem>
             {
                 new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },

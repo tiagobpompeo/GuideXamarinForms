@@ -69,6 +69,9 @@
     <PackageReference Include="ZXing.Net.Mobile">
       <Version>2.4.1</Version>
     </PackageReference>
+    <PackageReference Include="LiveXAML">
+      <Version>2.1.70</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -77,6 +80,7 @@
     <Compile Include="Effects\FocusEffect.cs" />
     <Compile Include="DependencyServices\AudioPlayerService.cs" />
     <Compile Include="Service\QrCodeScanningService.cs" />
+    <Compile Include="Renders\CheckBoxCustom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

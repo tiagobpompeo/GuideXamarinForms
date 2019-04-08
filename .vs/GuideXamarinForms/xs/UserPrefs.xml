@@ -1,21 +1,10 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{B09F3C40-E05E-4E65-8B7B-FC70261CC289}|Default">
-  <MonoDevelop.Ide.ItemProperties.GuideXamarinForms.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GuideXamarinForms Status">
-    <Files>
-      <File FileName="GuideXamarinForms/Models/AbstractClass/Father.cs" Line="9" Column="1" />
-      <File FileName="GuideXamarinForms/Models/AbstractClass/Children.cs" Line="5" Column="6" />
-      <File FileName="GuideXamarinForms Status" />
-    </Files>
+  <MonoDevelop.Ide.ItemProperties.GuideXamarinForms.Android PreferredExecutionTarget="Android.3300bf4511493503" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="GuideXamarinForms" expanded="True" selected="True">
-            <Node name="GuideXamarinForms" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="AbstractClass" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="GuideXamarinForms" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

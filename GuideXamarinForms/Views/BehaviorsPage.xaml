@@ -3,8 +3,10 @@
              xmlns:behaviors="clr-namespace:GuideXamarinForms.Behaviors;assembly=GuideXamarinForms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="GuideXamarinForms.Views.BehaviorsPage">
     <ContentPage.Content>
+      
         <StackLayout>
-             <Entry x:Name="txtCep" HeightRequest="40" TextColor="Black" FontSize="16" Keyboard="Numeric">
+               <Label HorizontalTextAlignment="Start" Text="Cep Behavior : "/>
+             <Entry x:Name="txtCep" Placeholder="Cep" HeightRequest="40" TextColor="Black" FontSize="16" Keyboard="Numeric">
                 <Entry.Behaviors>
                     <behaviors:EntryCepFormatterBehavior />
                 </Entry.Behaviors>
